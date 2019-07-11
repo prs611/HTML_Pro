@@ -77,8 +77,7 @@ button#Middle-Button
     font-size: 90%;
     background:#cfb53b;
     color: black;     
-    margin: 10px 10px 0px 0px; 
-           
+    margin: 10px 10px 0px 0px;      
     font-family: Arial, Helvetica, sans-serif;
     position: relative ;
     top : 150px  ;
@@ -118,7 +117,7 @@ h1{
   opacity: 10%;
 }
 
-/* Modal Content */
+                                              /* Modal Content */
 .modal-content {
   background-color: #fefefe;
   margin: 2% auto;
@@ -144,21 +143,33 @@ h1{
 }
 #Sign-Up-Button
 {
-  width: 100px ;
-  background-color: #4caf50 l
+  width: 100% ;
+  background-color: #4caf50 ;
+
 }
-#form-style input
+#Sign-Up-Button:hover
 {
- margin: 10px ;
+  background-color: orangered;
+}
+
+.form-style input
+{
+ margin: 10px 5px ;
  padding: 10px ; 
  length : 50 ;
  background-color: #f1f1f1 ;
  border: #000 ;
  width: 250px ;
- position: relative;
- font-family: "ariel"
+ position: relative ;
+ font-family: "ariel" ;
 }
-#hr-Shade
+.form-style label{
+  margin: 5px 3px ;
+  padding: 5px ; 
+  font-weight: bold
+}
+
+.hr-Shade
 {
   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
 }
