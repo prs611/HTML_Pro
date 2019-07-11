@@ -10,10 +10,13 @@
             <a id="pageTitle" class="logo-title">ScriBBler</a>
             <p class="middleText">Explore Imagine Create</p>
         </div> 
-        <p align = "center">
-          <a href = "bloglist.html"><button id= "Middle-Button">All Posts </button></a>
-          <button id = "Middle-Button">Create Post </button>
-        </p>
+        <div id = "postButtons">
+            <p align = "center">
+                <a href = "bloglist.html"><button id= "Middle-Button">All Posts </button></a>
+                <button id = "Middle-Button">Create Post </button>
+            </p>
+        </div>
+        
         <div id="myModal" class="modal">                  
           <div class="modal-content">
            <span class="close">&times;</span>
@@ -29,7 +32,7 @@
               <input type="password" placeholder="Enter Password" required><br>                  
               <label>Confirm Password</label><br>
               <input type="password" placeholder="Confirm Password" required><br>                 
-              <button id = "Sign-Up-Button">Sign Up</button>
+              <button class = "Sign-Up-Button">Sign Up</button>
               </form>       
             </p>
           </div>
@@ -46,7 +49,8 @@
                 <input type="text" placeholder="Enter Username" required>
                 <label>Password</label>
                 <input type="password" placeholder="Enter Password" required>
-              <button id = "Sign-Up-Button">Sign In</button>
+              <button class = "Sign-Up-Button">Sign In</button><br>
+              Not a member ? <a onclick="">Sign Up</a>
               </form>       
             </p>
           </div>

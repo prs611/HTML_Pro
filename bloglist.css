@@ -85,6 +85,11 @@ button#Middle-Button
 body{
     background-color: #e3900a ;
 }
+.expand
+{
+    font-weight: bold ;
+    float: right ;
+}
 .btn {
         background-color: #E8E8E8;
     border: none;
