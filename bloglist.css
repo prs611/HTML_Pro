@@ -89,6 +89,11 @@ body{
 {
     font-weight: bold ;
     float: right ;
+    border-width: 0px ;
+}
+.expand:hover
+{
+    cursor: pointer ;
 }
 .btn {
         background-color: #E8E8E8;
@@ -99,6 +104,15 @@ body{
     cursor: pointer;
     float: right ;
   }
+  #row-one,#row-two,#row-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row-three{
+  flex: 0.46;
+}
+
 .post {
     position: relative;
     width: 90%;
@@ -108,6 +122,7 @@ body{
     margin: 10px 10px 10px 20px;
     float:left;
     border-radius: 15px;
+    flex: 1;
 }
     
 .post-left {
@@ -120,7 +135,7 @@ body{
         color: #000;
 }
 .post-content {
-        width: 75%;           
+        width: 80%;           
         display: table-cell;
         text-align: left;
         background-color: #E8E8E8;
@@ -147,6 +162,9 @@ body{
 .post-desc{
     height: 100px;
     margin-bottom: 0 !important;
+    text-overflow: none;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 /* body {
